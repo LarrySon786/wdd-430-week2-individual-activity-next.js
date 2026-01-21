@@ -1,7 +1,22 @@
+Things to memorize
+1. Importing Props into functions. See /app/dashboard/invoices/page 
+function Page(props: {
+  searchParams?: Promise<{
+    query?: string;
+    page?: string;
+  }>;
+})
+
+2. Same page:
+const query = searchParams?.query || '';
+#You can use an || to set a variable IF the original value was going to be undefined
 
 
 
 
-
+ES Lint
+Run 'pnpm add -D eslint eslint-config-next'
+Create 'eslint.config.mjs' file in root of project
+Add content (as seen in this projects file)
 
 
