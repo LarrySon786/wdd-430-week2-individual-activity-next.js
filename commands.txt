@@ -20,3 +20,8 @@ Create 'eslint.config.mjs' file in root of project
 Add content (as seen in this projects file)
 
 
+NextAuth.js
+run 'pnpm i next-auth@beta' to install
+Next, create a secret key by visiting 'https://generate-secret.vercel.app/32' website and copy the secret key given to your .env
+
+
